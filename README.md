@@ -109,7 +109,9 @@ Lingkungan kerja untuk proyek ini disiapkan sebagai berikut:
 
 ## Business Dashboard
 
-*Business dashboard* yang dikembangkan (meskipun *link* akses tidak disertakan di sini) memberikan gambaran awal yang krusial mengenai permasalahan atrisi karyawan di perusahaan. Berikut adalah beberapa *insight* utama dari *dashboard* tersebut:
+![dashboard](https://raw.githubusercontent.com/miqbaljaffar/Attrition-Employees/main/METABASE/dashboard.jpg)
+
+*Business dashboard* yang dikembangkan memberikan gambaran awal yang krusial mengenai permasalahan atrisi karyawan di perusahaan. Berikut adalah beberapa *insight* utama dari *dashboard* tersebut:
 
 * **Tingkat Atrisi Keseluruhan**: Tingkat atrisi perusahaan tercatat sebesar **12.2%** dari total 1,470 karyawan. Angka ini mengonfirmasi adanya masalah signifikan yang memerlukan perhatian segera.
 * **Pendapatan Bulanan**: Karyawan yang mengalami atrisi (Yes/Keluar) cenderung memiliki **rata-rata pendapatan bulanan yang lebih rendah** dibandingkan dengan karyawan yang bertahan (No/Bertahan).
@@ -118,8 +120,6 @@ Lingkungan kerja untuk proyek ini disiapkan sebagai berikut:
 * **Kelompok Usia**: Kelompok usia **25 - 34 tahun** menunjukkan jumlah atrisi tertinggi. Kelompok usia **di bawah 25 tahun** juga menunjukkan tingkat atrisi yang cukup tinggi.
 
 Informasi dari *dashboard* ini menjadi dasar penting bagi departemen HR untuk mulai mengidentifikasi area fokus intervensi, khususnya terkait strategi kompensasi, evaluasi kondisi kerja di departemen Sales, serta pengembangan program retensi yang lebih efektif untuk karyawan pada kelompok usia muda dan produktif.
-
-*(Catatan: Link untuk mengakses dashboard tidak tersedia dalam informasi yang diberikan).*
 
 ---
 
