@@ -55,7 +55,42 @@ Proyek ini bertujuan untuk menganalisis data karyawan Jaya Jaya Maju guna menemu
 ## Persiapan
 
 ### Sumber Data:
-Dataset yang digunakan adalah `employee_data.csv`. File ini berisi berbagai atribut mengenai karyawan perusahaan, seperti usia, departemen, tingkat pendapatan, kepuasan kerja, dan status atrisi mereka. Definisi lengkap untuk setiap kolom dataset telah disediakan secara terpisah. Selama proses persiapan data, dataset yang telah dibersihkan juga disimpan sebagai `cleaned_data.csv`.
+Dataset yang digunakan adalah `employee_data.csv`. File ini berisi berbagai atribut mengenai karyawan perusahaan, seperti :
+1. EmployeeId: Nomor identifikasi unik untuk setiap karyawan.
+2. Age: Usia karyawan dalam tahun.
+3. Attrition: Status apakah karyawan tersebut telah meninggalkan perusahaan atau tidak.
+4. BusinessTravel: Frekuensi perjalanan dinas yang dilakukan karyawan (misalnya, Sering, Jarang, Tidak Pernah). 
+5. DailyRate: Tarif gaji harian karyawan. 
+6. Department: Departemen tempat karyawan bekerja (misalnya, Sumber Daya Manusia, Penjualan, Penelitian & Pengembangan).
+7. DistanceFromHome: Jarak dari rumah karyawan ke tempat kerja (kemungkinan dalam kilometer atau mil). 
+8. Education: Tingkat pendidikan terakhir yang dicapai karyawan. Ini bisa berupa skala numerik (misalnya, 1 untuk Sarjana, 2 untuk Magister) atau kategori. 
+9. EducationField: Bidang studi pendidikan karyawan (misalnya, Sumber Daya Manusia, Ilmu Hayati, Medis). 
+10. EmployeeCount: Jumlah karyawan, biasanya bernilai 1 untuk setiap baris data karyawan, sering digunakan untuk integritas data. 
+11. EnvironmentSatisfaction: Tingkat kepuasan karyawan terhadap lingkungan kerja, biasanya dalam skala numerik (misalnya 1-4 atau 1-5). 
+12. Gender: Jenis kelamin karyawan. 
+13. HourlyRate: Tarif gaji per jam karyawan. 
+14. JobInvolvement: Tingkat keterlibatan karyawan dalam pekerjaan mereka, biasanya dalam skala numerik. 
+15. JobLevel: Tingkat atau jenjang jabatan karyawan dalam hierarki perusahaan, biasanya dalam skala numerik. 
+16. JobRole: Peran atau jabatan spesifik karyawan dalam perusahaan (misalnya, Staf HR, Eksekutif Penjualan, Peneliti). 
+17. JobSatisfaction: Tingkat kepuasan karyawan terhadap pekerjaan mereka, biasanya dalam skala numerik.
+18. MaritalStatus: Status perkawinan karyawan.
+19. MonthlyIncome: Pendapatan bulanan karyawan.
+20. MonthlyRate: Tarif bulanan karyawan, ini bisa jadi berbeda dengan pendapatan bulanan dan mungkin merupakan komponen standar kompensasi.
+21. NumCompaniesWorked: Jumlah perusahaan tempat karyawan pernah bekerja sebelumnya.
+22. Over18: Menunjukkan apakah karyawan berusia di atas 18 tahun (kemungkinan 'Y' untuk Ya atau 'N' untuk Tidak).
+23. OverTime: Menunjukkan apakah karyawan bekerja lembur (misalnya, Ya/Tidak). 
+24. PercentSalaryHike: Persentase kenaikan gaji karyawan pada periode evaluasi terakhir. 
+25. PerformanceRating: Peringkat atau penilaian kinerja karyawan, biasanya dalam skala numerik. 
+26. RelationshipSatisfaction: Tingkat kepuasan karyawan terhadap hubungan kerja (dengan rekan kerja, atasan), biasanya dalam skala numerik.
+27. StandardHours: Jumlah jam kerja standar karyawan (seringkali konstan, misalnya 80 jam untuk dua minggu atau 40 jam per minggu).
+28. StockOptionLevel: Tingkat opsi saham yang diberikan kepada karyawan, biasanya dalam skala numerik.
+29. TotalWorkingYears: Total tahun pengalaman kerja karyawan sepanjang karirnya.
+30. TrainingTimesLastYear: Jumlah berapa kali karyawan menerima pelatihan pada tahun lalu.
+31. WorkLifeBalance: Persepsi karyawan terhadap keseimbangan antara kehidupan kerja dan kehidupan pribadi, biasanya dalam skala numerik.
+32. YearsAtCompany: Jumlah tahun karyawan telah bekerja di perusahaan saat ini.
+33. YearsInCurrentRole: Jumlah tahun karyawan telah berada dalam peran/jabatan saat ini.
+34. YearsSinceLastPromotion: Jumlah tahun sejak promosi terakhir karyawan.
+35. YearsWithCurrManager: Jumlah tahun karyawan telah bekerja dengan manajer saat ini.
 
 ### Setup Environment:
 Lingkungan kerja untuk proyek ini disiapkan sebagai berikut:
