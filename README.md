@@ -121,7 +121,16 @@ Lingkungan kerja untuk proyek ini disiapkan sebagai berikut:
 
 Informasi dari *dashboard* ini menjadi dasar penting bagi departemen HR untuk mulai mengidentifikasi area fokus intervensi, khususnya terkait strategi kompensasi, evaluasi kondisi kerja di departemen Sales, serta pengembangan program retensi yang lebih efektif untuk karyawan pada kelompok usia muda dan produktif.
 
----
+## Kredensial Metabase
+
+Dashboard Metabase dijalankan secara lokal. Untuk mengaksesnya, pastikan instance Metabase sudah berjalan di komputer Anda.
+
+* **URL Metabase (Lokal):** http://localhost:3000/public/dashboard/61371a65-1b33-4783-a161-5bfd0e1e7a14
+* **Username:** iqbaljaffar1108@gmail.com
+* **Password:** metabase1108
+ 
+**Catatan Penting untuk Penilai:**
+Karena Metabase dijalankan secara lokal, URL di atas hanya akan berfungsi jika Anda menjalankan instance Metabase ini di mesin Anda sendiri dengan data yang sama. Jika diperlukan cara lain untuk mendemonstrasikan dashboard (misalnya melalui screenshot, video, atau jika saya perlu men-deploy-nya ke environment yang bisa diakses publik), mohon informasikan.
 
 ## Conclusion
 
